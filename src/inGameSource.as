@@ -89,6 +89,7 @@
 			if( keyCode == Keyboard.BACKSPACE){inputBox.text = inputBox.text/10;}
 			
 			if ( keyCode == Keyboard.SPACE || keyCode == Keyboard.ENTER){
+				trace('ㅎㅎ');
 				var userAnswer = inputBox.text;
 				if(userAnswer == quizAnswer) trace('정답!');
 				else								  trace('땡');
